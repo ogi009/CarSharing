@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+header {
+    background-image: url("../images/Image.jpg");
+    background-size: cover;
+    height: calc(100vh - 28px);
+    position: relative;
+}
+header .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #FFFFFF33;
+    height: 90px;
+}
+.container {
+    width: 1088px;
+    margin: 0 auto;
+    color: white;
+}
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+span.logo {
+    font-size: 35px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: red;
+}
+span.logo > span {
+    color: white;
+            }
+nav ul {
+    display: flex;
+    height: 100%;
+}
+nav a {
+    line-height: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 90px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+header section {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+header section h1 {
+    font-size: 90px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+header section p {
+    padding: 50px;
+}
+.button {
+    display: inline-block;
+    width: 218px;
+    height: 68px;
+    border-radius: 34px;
+    line-height: 68px;
+}
+.share_a_car {
+    background-color: red;
+    color: white;
+}
+.key_features {
+    background-color: white;
+    color: red;
+}
+.arrow_down {
+    background-color: red;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -27px;
+    right: calc(50% - 27px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_title {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.blog_title::before,
+.blog_title::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    background: #222;
+}
+.blog .articles {
+    display: flex;
+    justify-content: space-between;
+
+}
+.article {
+    color: black;
+    width: 33%;
+}
+.article img {
+    width: 100%;
+}
+.article .article_title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+    color: #6A6A6A;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+.article .article_text {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    width: 260px;
+    margin-top: 19px;
+}
+.article .button {
+    background: #FF0000;
+    height: 40px;
+    width: 142px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 19px;
+}
+.service {
+    background-color: #28272C;
+    height: 643px;
+}
+.service_title {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.service_title::before,
+.service_title::after {
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    background: #FF0000;
+}
+.service .articles {
+    display: flex;
+}
